@@ -9,5 +9,21 @@
 <body>
     <?php include '../Common/navBar.php'; ?>
     <h1>Register</h1>
+    <form action="" method="">
+        <label>User Name</label>
+        <input type="text" name="userName"/>
+        <br/><br/>
+
+        <label>User Email</label>
+        <input type="email" name="userEmail"/>
+        <br/><br/>
+
+        <label>Password</label>
+        <input type="password" name="userPassword"/>
+        <br/><br/>
+
+        <button type="submit">Register</button>
+
+    </form>
 </body>
 </html>
